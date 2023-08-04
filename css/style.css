@@ -1470,3 +1470,14 @@ text-decoration: none;
   padding: 44px 29px 30px 30px;
   } 
 } 
+
+.hidden { 
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
